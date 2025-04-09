@@ -1,0 +1,86 @@
+/*CSS DOCUMENT*/
+
+body {
+    font-family: sans-serif;
+    line-height: 1.4em;
+    color: #222;
+    background-color: #fafafa;
+    box-sizing: border-box;
+}
+
+div.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 60em;
+    margin: auto;
+    padding: 0em 1em;
+}
+
+header {
+    background: rgb(250, 250, 250);
+    flex-basis: 100%;
+    flex-grow: 2;
+    flex-shrink: 0;
+    margin: 0.2em 0em 0em 1.5em;
+}
+
+article {
+    background: rgb(250, 250, 250);
+    flex-basis: 20em;
+    flex-grow: 2;
+    flex-shrink: 0;
+    margin: 2em 0.5em 1em 1em;
+}
+
+figure {
+    margin: 1em;
+}
+
+aside {
+    background: rgb(250, 250, 250);
+    flex-basis: 5em;
+    flex-grow: 2;
+    flex-shrink: 0;
+    margin: 2em 0em 2em 0em;
+}
+
+section {
+    background: rgb(230, 230, 230);
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+footer {
+    flex-basis: 50em;
+    flex-grow: 2;
+    flex-shrink: 1;
+    margin: 1em 1em 0em 0em;
+    padding: 1em 0em 0em 0em;
+    border-top: 0.1em solid rgb(226, 226, 226);
+}
+
+p {
+    margin: 0.5em 1em 0em 1em;
+}
+
+h2 {
+    margin: 1em 1em 1em 0.5em;
+}
+
+h3 {
+    margin: 0.5em 0.5em 0.3em 1em;
+}
+
+a {
+    text-decoration: none color rgb(0, 0, 0);
+}
+
+ol {
+    padding: 0em;
+    margin: 0em;
+}
+
+img {
+    width: 100%;
+}
