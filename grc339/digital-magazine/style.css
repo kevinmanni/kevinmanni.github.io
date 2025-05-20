@@ -7,9 +7,15 @@ img {
     display: block;
 }
 
+body {
+    background-color: rgb(106, 112, 163)
+}
+
 div.container, div.home-container {
     max-width: 40em;
     margin: auto;
+    background-color: rgb(106, 112, 163)
+
 }
 
 div.mainstory {
@@ -20,15 +26,17 @@ div.mainstory {
 }
 
 h1 {
-    width: 6em;
+    width: 13em;
 }
 
 h2 {
     font-size: 2em;
     text-decoration: none;
-    font-family: serif;
-    font-weight: bold;
-    color: rgb(74, 98, 131)
+    font-family: marion-standard, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: rgb(243, 244, 191)
+    
 }
 
 header{
@@ -39,7 +47,7 @@ nav a{
     text-decoration: none;
     font-family: sans-serif;
     font-weight: bold;
-    color: rgb(74, 98, 131);
+    color: rgb(243, 232, 242);
     list-style-type: style type;
     margin-bottom: 1em;
 }
@@ -56,6 +64,7 @@ nav ul li{
     margin-bottom: 0.5em;
     margin-right: 1em;
     margin-top: 0.5em;
+
 }
 
 
@@ -63,12 +72,20 @@ section.mainstory h2 {
     font-size: 3em;
 }
 
+
 section.secondarystory h2{
     font-size: 2em;
 }
 
 aside section.secondarystory a h2{
     font-size: 1em;
+    color: rgb(86, 65, 123);
+
+}
+
+aside section.secondarystory a{
+    font-size: 1em;
+    color: rgb(106, 112, 163);
 }
 
 
@@ -78,43 +95,49 @@ section.tertiarystory h2 {
     font-weight: bolder;
     margin-top: 1em;
     padding-top: 0.5em;
+
 }
 
 a{
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 p {
     padding-bottom: 1em;
-    font-weight: normal;
-    font-family: sans-serif;
+    font-family: helvetica-neue-lt-pro, sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 main a {
     text-decoration: none;
 }
 
+article p {
+    color: rgb(243, 232, 242);
+}
+
 aside a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 aside{
-    background: rgb(192, 194, 255);
+    background: rgb(243, 232, 242);
     padding: 1em 1em 0.5em 1em ;
 }
 
 figcaption {
     margin: 0.5em 0 2em;
     font-style: italic;
-    color: rgb(68, 68, 68);
+    color: rgb(255, 255, 255);
     font-family: sans-serif;
 }
- 
+
 
 footer {
-    background: #5c7696;
+    background: rgb(86, 85, 123);
 	padding: 0.5em;
     color: rgb(255, 255, 255);
     width: 100%;
@@ -138,6 +161,7 @@ footer {
         display: grid;
         grid-template-columns: 3fr 1fr;
         grid-gap: 1em;
+
     }
 
     div.container {
