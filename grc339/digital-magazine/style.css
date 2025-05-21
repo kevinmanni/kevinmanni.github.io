@@ -26,7 +26,7 @@ div.mainstory {
 }
 
 h1 {
-    width: 13em;
+    width: 15em;
 }
 
 h2 {
@@ -79,18 +79,18 @@ section.secondarystory h2{
 
 aside section.secondarystory a h2{
     font-size: 1em;
-    color: rgb(86, 65, 123);
+    color: rgb(243, 241, 191);
 
 }
 
 aside section.secondarystory a{
     font-size: 1em;
-    color: rgb(106, 112, 163);
+    color: rgb(243, 232, 242);
 }
 
 
 section.tertiarystory h2 {
-    border-top: 1px solid rgb(0, 0, 0);
+    border-top: 3px solid rgb(243, 232, 242);
     font-size: 1em;
     font-weight: bolder;
     margin-top: 1em;
@@ -124,7 +124,7 @@ aside a {
 }
 
 aside{
-    background: rgb(243, 232, 242);
+    background: rgb(86, 85, 123);
     padding: 1em 1em 0.5em 1em ;
 }
 
@@ -137,9 +137,9 @@ figcaption {
 
 
 footer {
-    background: rgb(86, 85, 123);
+    background: rgb(243, 232, 242);
 	padding: 0.5em;
-    color: rgb(255, 255, 255);
+    color: rgb(86, 85, 123);
     width: 100%;
     box-sizing: border-box; 
 }
